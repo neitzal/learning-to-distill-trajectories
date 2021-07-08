@@ -18,10 +18,12 @@ Uses the library `higher` (Grefenstette et al. 2019, [GitHub](https://github.com
 
 From the project's root directory run (with activated conda / virtual env):
 ![synthetic_A](misc/synthetic_A.png)
+
 ```python -m ldt.train_synthetic_A --method meta --n-train 512 --inner-lr 1e-3```
 
 
 ![synthetic_B](misc/synthetic_B.png)
+
 ```python -m ldt.train_synthetic_B --method meta --batch-size 32 --student-hidden-dim 256```
 
 
